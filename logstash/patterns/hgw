@@ -1,0 +1,3 @@
+DATE_YMD %{YEAR}[/-]%{MONTHNUM}[/-]%{MONTHDAY}
+TIMESTAMP_HGW %{DATE_YMD}[- ]%{TIME}
+HGWLOG %{TIMESTAMP_HGW:hgw_timestamp} SRC=%{IPORHOST:source_ip}/%{POSINT:source_port} DST=%{IPORHOST:dest_ip}/%{POSINT:dest_port} %{DATA:protocol} %{GREEDYDATA:message}
