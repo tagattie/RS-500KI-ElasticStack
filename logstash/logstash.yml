@@ -16,7 +16,7 @@
 #
 # Use a descriptive name for the node:
 #
-node.name: Logstash           # CHANGEME
+node.name: Logstash                                                             # CHANGEME
 #
 # If omitted the node name will default to the machine's host name
 #
@@ -127,7 +127,7 @@ path.config: /usr/local/etc/logstash/logstash.conf
 # Internal queuing model, "memory" for legacy in-memory based queuing and
 # "persisted" for disk-based acked queueing. Defaults is memory
 #
-queue.type: persisted         # CHANGEME
+queue.type: persisted                                                           # CHANGEME
 #
 # If using queue.type: persisted, the directory path where the data files will be stored.
 # Default is path.data/queue
